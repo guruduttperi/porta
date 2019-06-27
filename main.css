@@ -581,6 +581,15 @@ a.navbar-item:hover{
 }
 
 
+.post-date{
+  color: var(--ibmblue);
+}
+
+.post-date:hover {
+  color: var(--eigen);
+}
+
+
 .passionlink{
   color: var(--passionred);
 }
@@ -773,4 +782,13 @@ align-self: center;
 
 .work-info p {
 	max-width: 290px;
+}
+
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 3px 3px rgba(10, 10, 10, .1), 0 0 0 0.5px rgba(10, 10, 10, .1);
+  color: #404040;
+  max-width: 100%;
+  position: relative
 }
