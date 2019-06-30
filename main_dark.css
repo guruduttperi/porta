@@ -491,7 +491,24 @@ html{
 }
 
 
+.anim-change{-webkit-animation:anim-change 5s linear infinite alternate both;animation:anim-change 5s linear infinite alternate both}
 
+}
+
+@-webkit-keyframes .anim-change {
+  0% {
+    background: #000000;
+  }
+  33.3333% {
+    background: #050505;
+  }
+  66.666% {
+    background: #101010;
+  }
+  100% {
+    background: #1c1c1c;
+  }
+}
 
 .color-change-2x{-webkit-animation:color-change-2x 5s linear infinite alternate both;animation:color-change-2x 5s linear infinite alternate both}
 
@@ -709,6 +726,11 @@ align-self: center;
 
 }
 
+.c-eigen{
+  background-color: var(--eigengrau);
+  color: white;
+}
+
 .card-noborder {
   background-color: #fff;
   color: #4a4a4a;
@@ -825,7 +847,7 @@ align-self: center;
 	opacity: 0;
 	position: absolute;
 	left: 20px;
-	top: 60px;
+	top: 70px;
 	z-index: 2;
 	transition: all 0.2s ease-in-out;
 }
@@ -835,15 +857,7 @@ align-self: center;
 	background-size: 100%;
 }
 
-.work-panel-happysignals {
-	background-image: url('../images/happysignals_thumb.jpg');
-	background-size: 100%;
-}
 
-.work-panel-whim {
-	background-image: url('../images/whim_thumb.jpg');
-	background-size: 100%;
-}
 
 .work-panel .view-more {
 	opacity: 0;
@@ -858,7 +872,7 @@ align-self: center;
 
 .work-panel .view-more:after {
 	content: ' ⟶';
-	vertical-align: -1px;
+	vertical-align: 0px;
 }
 
 .work-panel:hover .view-more {

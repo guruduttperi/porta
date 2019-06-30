@@ -235,6 +235,22 @@ html { font-family: 'Inter', sans-serif; }
   float: right !important
 }
 
+.reverse-row-order{
+
+ flex-direction: row-row-reverse;
+}
+
+
+.right_reverse { order: 2; }
+.left_reverse{ order: 1; }
+
+
+@media only screen and (max-width: 769px) {
+
+    .right_reverse { order: 1; }
+    .left_reverse { order: 2; }
+}
+
 /* Card Variables */
 
 div {
@@ -745,20 +761,7 @@ align-self: center;
 	transition: all 0.2s ease-in-out;
 }
 
-.work-panel-viaesca {
-	background-image: url('/images/a1.jpg');
-	background-size: 100%;
-}
 
-.work-panel-happysignals {
-	background-image: url('../images/happysignals_thumb.jpg');
-	background-size: 100%;
-}
-
-.work-panel-whim {
-	background-image: url('../images/whim_thumb.jpg');
-	background-size: 100%;
-}
 
 .work-panel .view-more {
 	opacity: 0;
