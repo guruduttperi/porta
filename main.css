@@ -260,7 +260,7 @@ div {
 a {
   font-weight: 400;
   text-decoration: none;
-  color: #4555E6;
+  color: #418CFF;
   position: relative;
   transition: color 0.3s ease; }
   a.text-link:after {
@@ -271,7 +271,7 @@ a {
     bottom: 0px;
     left: 0;
     width: 0%;
-    border-bottom: 1px solid #4555E6;
+    border-bottom: 1px solid #418CFF;
     transition: 0.4s ease; }
   a:hover {
     text-decoration: none;
@@ -308,9 +308,9 @@ a {
 }
 
 .project-container {
-  display: flex;
+  display: inline-flex;
   flex-grow: 1;
-  height: 340px;
+  height: 100%;
   width: 100%;
   margin-bottom: 80px;
   transition: all 0.4s ease; }
@@ -345,20 +345,20 @@ a {
           top: 0;
           left: 0; } }
   .project-container .project-details {
-    font-family: "Inter", serif;
+    font-family: "Inter", sans-serif;
     background-color: white;
     padding: 40px;
     box-sizing: border-box; }
     @media screen and (max-width: 440px) {
       .project-container .project-details {
-        height: 140px;
+        height: 100%;
         padding: 20px; } }
     .project-container .project-details .metadata {
       font-family: "Inter", sans-serif;
       color: #7D7D80;
-      font-size: 13px;
+      font-size: 12px;
       letter-spacing: 1px;
-      margin-bottom: 56px; }
+      margin-bottom: 48px; }
       @media screen and (max-width: 900px) {
         .project-container .project-details .metadata {
           margin-bottom: 36px; } }
@@ -367,7 +367,7 @@ a {
           margin-bottom: 24px; } }
     .project-container .project-details .title {
       color: #000000;
-      font-size: 40px;
+      font-size: 32px;
       line-height: 1.2;
       font-weight: 600; }
       @media screen and (max-width: 1100px) {
@@ -377,7 +377,7 @@ a {
         .project-container .project-details .title {
           font-size: 28px; } }
     .project-container .project-details .subtitle {
-      color: var(--eigen);
+      color: #4a4a4a;
       font-family: "Inter", sans-serif;
       font-size: 16px;
       font-weight: 400;
@@ -387,10 +387,11 @@ a {
         .project-container .project-details .subtitle {
           font-size: 16px; } }
     .project-container .project-details .body {
-      color: var(--eigen);
+      color: #7D7D80;
       font-family: "Inter", sans-serif;
-      font-size: 14px;
-      line-height: 21px; }
+      font-size: 12px;
+      letter-spacing: 1px;
+      line-height: 14px; }
       @media screen and (max-width: 440px) {
         .project-container .project-details .body {
           display: none; } }
@@ -401,8 +402,6 @@ a {
           width: 11px;
           height: 11px;
           margin-left: 4px; }
-
-
 
 
 /* Custom Color Variables */
@@ -426,6 +425,7 @@ a {
   --blueblack: #333438;
   --gstar: rgb(250,164,130);
   --rescue: rgb(50,127,184);
+  --frost: #E0E7EE;
 
 }
 
@@ -514,6 +514,10 @@ background: linear-gradient(to right, var(--lightblue), var(--mesblue));/* W3C, 
   background-color: var(--blueblack);
 }
 
+.bkg-frost{
+  background-color: var(--frost);
+}
+
 .bkg-passionred{
   background-color: var(--passionred);
 }
@@ -574,7 +578,7 @@ a.navbar-item:hover{
 }
 
 .post:hover .textpost-red
-{ font-style: oblique;
+{
   font-weight: bold;
   color: var(--passionred);
 }
@@ -585,13 +589,13 @@ a.navbar-item:hover{
 }
 
 .post:hover .textpost-gstar
-{ font-style: oblique;
+{
   font-weight: bold;
   color: var(--gstar);
 }
 
 .post:hover .textpost-rescue
-{ font-style: oblique;
+{
   font-weight: bold;
   color: var(--rescue);
 }
