@@ -291,9 +291,9 @@ a {
 }
 
 .project-container {
-  display: flex;
+  display: inline-flex;
   flex-grow: 1;
-  height: 340px;
+  height: 100%;
   width: 100%;
   margin-bottom: 80px;
   transition: all 0.4s ease; }
@@ -328,13 +328,13 @@ a {
           top: 0;
           left: 0; } }
   .project-container .project-details {
-    font-family: "Inter", serif;
+    font-family: "Inter", sans-serif;
     background-color: white;
     padding: 40px;
     box-sizing: border-box; }
     @media screen and (max-width: 440px) {
       .project-container .project-details {
-        height: 140px;
+        height: 100%;
         padding: 20px; } }
     .project-container .project-details .metadata {
       font-family: "Inter", sans-serif;
