@@ -413,6 +413,7 @@ a {
 html{
   background-color: var(--white);
   color: black;
+  scroll-behavior: smooth;
 
 }
 
