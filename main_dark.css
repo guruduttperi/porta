@@ -243,7 +243,7 @@ div {
 a {
   font-weight: 400;
   text-decoration: none;
-  color: #4555E6;
+  color: #418CFF;
   position: relative;
   transition: color 0.3s ease; }
   a.text-link:after {
@@ -254,7 +254,7 @@ a {
     bottom: 0px;
     left: 0;
     width: 0%;
-    border-bottom: 1px solid #4555E6;
+    border-bottom: 1px solid #418CFF;
     transition: 0.4s ease; }
   a:hover {
     text-decoration: none;
@@ -339,9 +339,9 @@ a {
     .project-container .project-details .metadata {
       font-family: "Inter", sans-serif;
       color: #7D7D80;
-      font-size: 13px;
+      font-size: 12px;
       letter-spacing: 1px;
-      margin-bottom: 56px; }
+      margin-bottom: 48px; }
       @media screen and (max-width: 900px) {
         .project-container .project-details .metadata {
           margin-bottom: 36px; } }
@@ -350,7 +350,7 @@ a {
           margin-bottom: 24px; } }
     .project-container .project-details .title {
       color: #000000;
-      font-size: 40px;
+      font-size: 32px;
       line-height: 1.2;
       font-weight: 600; }
       @media screen and (max-width: 1100px) {
@@ -360,7 +360,7 @@ a {
         .project-container .project-details .title {
           font-size: 28px; } }
     .project-container .project-details .subtitle {
-      color: var(--eigen);
+      color: #4a4a4a;
       font-family: "Inter", sans-serif;
       font-size: 16px;
       font-weight: 400;
@@ -370,10 +370,11 @@ a {
         .project-container .project-details .subtitle {
           font-size: 16px; } }
     .project-container .project-details .body {
-      color: var(--eigen);
+      color: #7D7D80;
       font-family: "Inter", sans-serif;
-      font-size: 14px;
-      line-height: 21px; }
+      font-size: 12px;
+      letter-spacing: 1px;
+      line-height: 14px; }
       @media screen and (max-width: 440px) {
         .project-container .project-details .body {
           display: none; } }
@@ -404,6 +405,7 @@ a {
   --greystone: rgb(249,249,249);
   --spygrey: #202020;
   --ibmblue: #418CFF;
+    --frost: #E0E7EE;
 
 }
 
@@ -552,8 +554,8 @@ html{
   top: 0;
   width: 100%;
   padding: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
   color:black;
   background-color: black;
   z-index: 100;
@@ -618,7 +620,9 @@ color: var(--passionred);
 
 }
 
-
+.bkg-frost{
+  background-color: var(--frost);
+}
 .bkg-stone{
   background-color: var(--stone);
 }
