@@ -405,6 +405,8 @@ a {
   --greystone: rgb(249,249,249);
   --spygrey: #202020;
   --ibmblue: #418CFF;
+  --gstar: rgb(250,164,130);
+  --rescue: rgb(50,127,184);
     --frost: #E0E7EE;
 
 }
@@ -733,6 +735,11 @@ align-self: center;
 
 .c-eigen{
   background-color: var(--eigengrau);
+  color: white;
+}
+
+.c-trans{
+  background-color: transparent;
   color: white;
 }
 
