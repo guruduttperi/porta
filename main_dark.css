@@ -295,7 +295,7 @@ a {
   flex-grow: 1;
   height: 100%;
   width: 100%;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   transition: all 0.4s ease; }
   .project-container:hover {
     box-shadow: 0 2px 2px #202020;
@@ -408,6 +408,7 @@ a {
   --gstar: rgb(250,164,130);
   --rescue: rgb(50,127,184);
     --frost: #E0E7EE;
+    --berry: #1A191B;
 
 }
 
@@ -589,6 +590,11 @@ background: linear-gradient(to right, var(--lightblue), var(--mesblue));/* W3C, 
 .bkg-black{
   background-color: black;
 }
+
+.bkg-berry{
+  background-color: var(--berry);
+}
+
 .bkg-ultragrey{
   background-color: var(--ultragrey);
 }
@@ -893,4 +899,34 @@ align-self: center;
 
 .work-info p {
 	max-width: 290px;
+}
+
+
+.quik {
+    height: auto;
+
+    background-color: #4a4a4a;
+    color: #4a4a4a;
+}
+
+.w-clearfix:before, .w-clearfix:after {
+    content: " ";
+    display: table;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2;
+}
+
+.w-clearfix:after {
+    clear: both;
+}
+
+.w-clearfix:before, .w-clearfix:after {
+    content: " ";
+    display: table;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2;
 }
