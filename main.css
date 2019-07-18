@@ -288,13 +288,13 @@ a {
           padding: 60px 0px; } }
 
 .main-container {
-    max-width: 1160px;
+    max-width: 1280px;
     margin: 0 auto;
-    padding: 0 6%;
+    padding: 0 ;
     padding-top: 0px;
-    padding-right: 6%;
+    padding-right: 10%;
     padding-bottom: 0px;
-    padding-left: 6%;
+    padding-left: 10%;
 }
 
 .section-header {
@@ -460,20 +460,20 @@ html{
   top: 0;
   width: 100%;
   padding: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
   color: var(--black);
-  background-color: white;
+
   z-index: 100;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 40px 0px;
 }
 
 .navbar-brand{
-  background: white;
+
 }
 
 .navbar-burger{
-  background-color: white;
+
   color: black;
 }
 
@@ -487,6 +487,10 @@ background: linear-gradient(to right, var(--lightblue), var(--mesblue));/* W3C, 
 
 .bkg-white{
   background-color: var(--white);
+}
+
+.bkg-transparent{
+  background-color: transparent;
 }
 
 .bkg-black{
@@ -562,6 +566,7 @@ color: var(--passionred);
   background-color: white;
   color: var(--ibmblue);
   border-bottom-color: var(--ibmblue);
+
 
 }
 
@@ -804,4 +809,36 @@ align-self: center;
   color: #404040;
   max-width: 100%;
   position: relative
+}
+
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 50% 0;
+  }
+}
+
+#animate-area {
+  background-image: url('images/g4.png');
+  background-position: center;
+  background-repeat: repeat-x;
+  animation: animatedBackground 5s linear infinite alternate;
+  animation-duration: 4s;
+}
+
+
+.arrow-icon {
+  background-color:$background;
+  height: 2.8em;
+  width: 2.8em;
+  display:block;
+  padding: 1.5em;
+  margin: 1em auto;
+  position: relative;
+  cursor: pointer;
+  border-radius: 4px;
+\
 }

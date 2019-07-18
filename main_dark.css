@@ -409,6 +409,7 @@ a {
   --rescue: rgb(50,127,184);
     --frost: #E0E7EE;
     --berry: #1A191B;
+    --ivory: #e8e9ee;
 
 }
 
@@ -594,6 +595,11 @@ background: linear-gradient(to right, var(--lightblue), var(--mesblue));/* W3C, 
 .bkg-berry{
   background-color: var(--berry);
 }
+
+.bkg-ivory{
+  background-color: var(--ivory);
+}
+
 
 .bkg-ultragrey{
   background-color: var(--ultragrey);
