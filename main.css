@@ -432,6 +432,8 @@ a {
   --gstar: rgb(250,164,130);
   --rescue: rgb(50,127,184);
   --frost: #E0E7EE;
+  --showkali: rgb(252,71,62);
+  --dviz: rgb(47,113,76);
 
 }
 
@@ -609,6 +611,24 @@ a.navbar-item:hover{
 {
   font-weight: bold;
   color: var(--rescue);
+}
+
+.post:hover .textpost-showkali
+{
+  font-weight: bold;
+  color: var(--showkali);
+}
+
+.post:hover .textpost-dviz
+{
+  font-weight: bold;
+  color: var(--dviz);
+}
+
+.post:hover .textpost-nasa
+{
+  font-weight: bold;
+  color: #202020;
 }
 
 
