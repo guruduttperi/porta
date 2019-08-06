@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FFF">
+  <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, width=device-width, height=device-height, viewport-fit=cover">
+  <title>Gurudutt Perichetla • Music Analysis - Data Visualization Case Study</title>
+  <link rel="stylesheet" href="bulma.min.css">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+<link rel="icon" type="image/png" href="images/circ2.png">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <meta name="full-screen" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" background="#FFF">
+  <meta name="apple-mobile-web-app-title" content="Gurudutt">
+
+  <meta property="og:title" content="Gurudutt Perichetla • UX Designer">
+  <meta property="og:image" content="images/circ2.png">
+  <meta property="og:description" content="MS-HCI student at Georgia Tech. <br>
+      Currently designing immersive experiences at the intersection of Data Science and Mixed Reality.">
+
+  <style>
+    @import url('https://rsms.me/inter/inter.css');
+    html {
+      font-family: 'Inter', sans-serif;
+    }
+
+    @supports (font-variation-settings: normal) {
+      html {
+        font-family: 'Inter var', sans-serif;
+      }
+    }
+  </style>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body data-gr-c-s-loaded="true" data-aos-easing="ease" data-aos-duration="1200" data-aos-delay="0">
+  <nav class="navbar bkg-white is-fixed-top">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item is-1" href="index.html" id="logo">
+
+          <h4 class="title is-5" style = "color: black;"><b>Gurudutt Perichetla</b></h4>
+
+        </a>
+        <span class="navbar-burger burger" data-target="navMenu">
+          <span></span>
+        <span></span>
+        <span></span>
+        </span>
+      </div>
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-end">
+          <a href="index.html" class="navbar-item is-active"><b>Work</b></a>
+          <a href="music.html" class="navbar-item "><b>Music</b></a>
+            <a href="photos.html" class="navbar-item"><b>Photos</b></a>
+          <a href="about.html" class="navbar-item"><b>About</b></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero is-white is-medium" style="background-image: url('images/hgreen.jpg')">
+      <div class="hero-body">
+        <div class="container">
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" class="aos-init">
+            <div class="columns is-centered">
+
+              <div class="column is-6">
+                <h1 class="title is-2 " style="text-align: center; color: var(--white);">
+          <br><br>Music Analysis<br><br>
+        </h1>
+                <h2 class="subtitle" style="text-align: center; color: var(--white);">
+  Visualizing and analyzing statistics of my music on Spotify, Apple Music and other streaming services.</h2>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hero is-white is-fullheight">
+        <div class="hero-body">
+          <div class="container">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" class="aos-init">
+              <div class="columns is-centered">
+
+                <div class="column is-10">
+
+                  <h1 class="title is-4 " style="text-align: left; color: var(--dviz);">
+            <br>Introduction
+          </h1>
+                  <h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+    <br>This article is to help musicians choose the best music streaming service to get new listeners and fans. Let me start by introducing myself. My name is Gurudutt Perichetla. I’m a 21-year-old music producer who likes to mix and match different genres of music to make musical experiments.
+<br><br>
+I’ve been producing music since 2015, under several pseudonyms which never really clicked. I could neither get a good fanbase nor get exposure. It was in 2016 that I tried to put out music with my real name. I started producing Hip Hop beats and experimental electronic music. These tracks were up on Soundcloud, where I could get around 30 plays a month. Same scenario. Things weren’t really picking up..</h2>
+
+    <h1 class="title is-4 " style="text-align: left; color: var(--dviz);">
+    <br><br>The Impact of Bandcamp
+    </h1>
+    <h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+    <br>So, the best thing I heard was to use Bandcamp, since it was way more customizable and was more like a catalog ~ a portfolio for people to check out, compared to the cluttered mess of Soundcloud’s artist pages. I had released a couple of tracks during the Halloween Season where I got little to no plays. I had cross-posted those tracks to appropriate subreddits where I hoped to get a couple of plays, but things were the same.
+<br><br>
+I had removed those tracks and on the 31st of December, I had uploaded my first EP, which comprised of Synthwave and Retro Pop tracks. And within two days, I got over 640 plays and 123 downloads. I was amazed! And so with the same hope, I had released another EP on Valentine’s Day. But this couldn’t reach the same level of listens or downloads of the first. I had released another in May, which got some positive feedback, but I wasn’t making any money off of my music.</h2>
+<figure class="image">
+  <img src="images/spotify/bandcamp.png">
+</figure>
+
+
+
+    <h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+    <br><br>That was when I started reading articles on how the Music Industry was changing since physical audio CDs don’t bring artists money, nowadays. Artists either earned money from extensive touring or streaming platforms such as Spotify, Apple Music, and Tidal.
+<br><br>
+I knew that Music Streaming was the next wave that could really help my music get some exposure, and so I started looking for music distributors. The only thing that I understood from major distributors was that you either needed to have some sort of membership or pay per release to get your tracks on these platforms. I had contacted a friend of mine who works at a small distributor and he helped me get my music on the streaming platforms — Spotify, Apple Music, Google Play, Amazon and Deezer.
+
+</h2>
+
+
+
+<h1 class="title is-4 " style="text-align: left; color: var(--dviz);">
+<br><br>Comparing Streaming Music Services
+</h1>
+<figure class="image">
+  <img src="images/spotify/excel.png">
+</figure>
+<h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+<br><br>I get monthly statistics from my distributor about plays, revenue and where my tracks are played, and how long they are played — in the form of a .csv file. I’m a CS undergrad who’s really interested in Data Science and thought of analyzing the CSV file to find out intricate details regarding the plays, the revenue, and whatnot.</h2>
+
+<figure class="image">
+  <img src="images/spotify/code1.png">
+</figure>
+<br><br>
+<figure class="image">
+  <img src="images/spotify/code2.png">
+</figure>
+
+<h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+<br><br>You can tell me that by using 'Spotify for Artists' I can visualize these details, but that’s applicable only for Spotify, not other platforms. So, I visualized the data from the CSV file using Python and its libraries such as Seaborn and Pandas. </h2>
+
+<h1 class="title is-4 " style="text-align: left; color: var(--dviz);">
+<br><br>Analysis #1: Albums
+</h1>
+
+<figure class="image">
+  <img src="images/spotify/Albums.png">
+</figure>
+
+<h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+<br>Initially, I plotted “Album” versus “Gross Revenue” to find out which album was getting the highest number of plays. I had found out that the albums that were more commercial and radio-friendly got the highest number of revenue — meaning a higher number of plays.</h2>
+
+
+<h1 class="title is-4 " style="text-align: left; color: var(--dviz);">
+<br><br>Analysis #2: Tracks
+</h1>
+
+<figure class="image">
+  <img src="images/spotify/Tracks.png">
+</figure>
+
+<h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+<br>Similarly, by plotting “Tracks” against “Net Revenue”, I had found that “Kill Your Friends”, a Brostep track, was my highest played and“Ether”, an Indian influenced Deep House Track, was my least played track. Other genres such as “New Jack Swing”, “Future Bass” were preferred to “Synthwave” and “Alternative”.</h2>
+
+
+<h1 class="title is-4 " style="text-align: left; color: var(--dviz);">
+<br><br>Analysis #3: Countries
+</h1>
+
+<figure class="image">
+  <img src="images/spotify/Countries.png">
+</figure>
+
+<h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+<br>As I expected, most of my listens were from the United States, with Canada at second place. I was shocked to find that I got a good amount of listens from Poland and Sweden. The countries where my music was least played were Taiwan, Peru and Luxembourg to name a few.</h2>
+
+
+
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  <script type="text/javascript">
+    (function() {
+      var burger = document.querySelector('.burger');
+      var nav = document.querySelector('#' + burger.dataset.target);
+      burger.addEventListener('click', function() {
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+      });
+    })();
+
+    AOS.init();
+    /*
+        $('.hover').mouseover(function() {
+      $('.text').css("visibility","visible");
+    });
+
+    $('.hover').mouseout(function() {
+      $('.text').css("visibility","hidden");
+    });
+    */
+
+    /*
+    $(".portimg").hover(function(){
+
+    		var oldimg = $("assets/i2.png").attr("src");
+    		var newimg = $("assets/s2.png").attr("src");
+
+    		$(this).attr("src", newimg);
+    		}, function(){
+    		$(this).attr("src", ouimg);
+    });
+    */
+
+    function displaytext(value) {
+      text = value;
+      document.write(text);
+    }
+  </script>
+
+  <div style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="nav-stripe"></div>
+
+
+  <footer class="footer bkg-black">
+    <div class="container">
+      <div class="columns">
+        <div class="column " style="visibility: visible; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.3s;">
+          <h1 style="visibility: visible; color:white; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.3s;" class = "subtitle is-6">
+               <b>Wanna work on something?</b><br><br>
+              <ul>
+             <li>
+         <a href="mailto:guruduttperichetla@gmail.com" class = "textlink" style = "color: var(--white);">Send me an Email ⟶</a>
+       </li>
+             <li><a href="https://www.linkedin.com/in/guruduttperi/" class = "textlink" style="color: var(--white);">LinkedIn ⟶</a> &nbsp; <br><a href="https://open.spotify.com/artist/3s5cmywpL5c4WNgPU4KutH" class = "textlink" style="color: var(--white);">Spotify ⟶</a> &nbsp; </li>
+             <li><a href="https://twitter.com/guruduttperi" class = "textlink"
+                 style="color: var(--white);">Twitter ⟶ </a><br><a href="https://www.instagram.com/gperichetla/" class = "textlink" style="color: var(--white);">Instagram ⟶</a></li>
+             <br>
+           </ul>
+            </h1>
+
+
+        </div>
+
+        <div class="column " style="visibility: visible; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.3s; color:black;">
+                <h1 style="visibility: visible; color:white; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.3s;" class = "subtitle is-6">
+          <p style="color: white;"><b style="color: var(--white);">Gurudutt Perichetla</b><br><br></p>
+          <ul>
+            <li>Designer.<br> Developer.</li>
+            <li>Engineer.<br> Musician.</li>
+          </ul>
+        </h1>
+        </div>
+
+
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

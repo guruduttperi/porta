@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FFF">
+  <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, width=device-width, height=device-height, viewport-fit=cover">
+  <title>Gurudutt Perichetla • Showkali - App Development Case Study</title>
+  <link rel="stylesheet" href="bulma.min.css">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+<link rel="icon" type="image/png" href="images/circ2.png">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <meta name="full-screen" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" background="#FFF">
+  <meta name="apple-mobile-web-app-title" content="Gurudutt">
+
+  <meta property="og:title" content="Gurudutt Perichetla • UX Designer">
+  <meta property="og:image" content="images/circ2.png">
+  <meta property="og:description" content="MS-HCI student at Georgia Tech. <br>
+      Currently designing immersive experiences at the intersection of Data Science and Mixed Reality.">
+
+  <style>
+    @import url('https://rsms.me/inter/inter.css');
+    html {
+      font-family: 'Inter', sans-serif;
+    }
+
+    @supports (font-variation-settings: normal) {
+      html {
+        font-family: 'Inter var', sans-serif;
+      }
+    }
+  </style>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body data-gr-c-s-loaded="true" data-aos-easing="ease" data-aos-duration="1200" data-aos-delay="0">
+  <nav class="navbar bkg-white is-fixed-top">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item is-1" href="index.html" id="logo">
+
+          <h4 class="title is-5" style = "color: black;"><b>Gurudutt Perichetla</b></h4>
+
+        </a>
+        <span class="navbar-burger burger" data-target="navMenu">
+          <span></span>
+        <span></span>
+        <span></span>
+        </span>
+      </div>
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-end">
+          <a href="index.html" class="navbar-item is-active"><b>Work</b></a>
+          <a href="music.html" class="navbar-item "><b>Music</b></a>
+            <a href="photos.html" class="navbar-item"><b>Photos</b></a>
+          <a href="about.html" class="navbar-item"><b>About</b></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero is-white is-medium" style="background-image: url('images/hshowkali.jpg'); background-position: right;">
+      <div class="hero-body">
+        <div class="container">
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" class="aos-init">
+            <div class="columns is-centered">
+
+              <div class="column is-6">
+                <h1 class="title is-2 " style="text-align: center; color: var(--white);">
+          <br><br>Showkali<br><br>
+        </h1>
+                <h2 class="subtitle" style="text-align: center; color: var(--white);">
+  Building a Mobile App to discover new Motorsport events and Race Tracks.</h2>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hero is-white is-fullheight">
+        <div class="hero-body">
+          <div class="container">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" class="aos-init">
+              <div class="columns is-centered">
+
+                <div class="column is-10">
+
+                  <h1 class="title is-4 " style="text-align: left; color: var(--showkali);">
+            <br>Overview
+          </h1>
+                  <h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+    <br>Showkali is an app that allows bikers and automobile enthusiasts to book tickets to motorsport events and discover tracks for racing. It was inspired by a project I had to submit for the Mobile App Development Lab at my university — titled “Motorsport”.</h2>
+
+
+    <h1 class="title is-4 " style="text-align: left; color: var(--showkali);">
+    <br><br>Ideation
+    </h1>
+    <h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+    <br>One of the main goals while coming up with digital product ideas is to make sure that the digital product, in this case, a mobile application, has to be possible to implement. Another factor is to find who the app caters to. In my case, I went on looking around for what my peers do in their summer and winter vacations. One popular hobby that a lot of people had was riding bikes and traveling across the country. In India, it is common for people to travel from Chennai to Manali or Ladakh — by bike, and that served as the inspiration for this app.</h2>
+
+
+
+<h1 class="title is-4 " style="text-align: left; color: var(--showkali);">
+<br><br>Requirements Gathering and Analysis
+</h1>
+
+<h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+<br>In the software engineering process, the first phase corresponds to the gathering of user requirements and needs. I had gathered this data from creating a simple survey on Google Forms by asking a couple of questions. I found out that people are usually interested in two major things:
+<br><br>
+1. Finding new racetracks and locations
+<br><br>
+2. Finding racing events and booking tickets
+<br><br>
+Using this information I had categorized the requirements into functional and non-functional requirements. </h2>
+<figure class="image">
+  <img src="images/showkali/req.jpg">
+</figure>
+
+
+<h1 class="title is-4 " style="text-align: left; color: var(--showkali);">
+<br><br>Prototyping
+</h1>
+
+<h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+<br>After I had analyzed and documented user requirements, I started to develop a prototype app to test the basic functionality. I had used Swift 4 and Xcode to create a working iOS app.</h2>
+
+<figure class="image">
+  <img src="images/showkali/storyboard.png">
+</figure>
+<br><br>
+<figure class="image">
+  <img src="images/showkali/lofi.jpg">
+</figure>
+
+<h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+<br><b>What Did I Learn?</b>
+<br><br>1. Setting up a Table View Controller
+<br><br>
+2. Populating cells within a TableView
+<br><br>
+3. Navigating between a TableView and a Detail View Controller
+<br><br>
+4. AutoLayout and setting up constraints
+<br><br>
+5. How to incorporate MapKit within my application<br><br>
+</h2>
+
+
+<figure class="image">
+  <img src="images/showkali/code1.png">
+</figure>
+<br><br>
+<figure class="image">
+  <img src="images/showkali/code2.png">
+</figure>
+
+
+<h1 class="title is-4 " style="text-align: left; color: var(--showkali);">
+<br><br>Refining the Design
+</h1>
+<br><figure class="image">
+  <img src="images/showkali/s1.png">
+</figure>
+<br><br><figure class="image">
+  <img src="images/showkali/s3.png">
+</figure>
+<br><br><figure class="image">
+  <img src="images/showkali/s3.png">
+</figure>
+
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  <script type="text/javascript">
+    (function() {
+      var burger = document.querySelector('.burger');
+      var nav = document.querySelector('#' + burger.dataset.target);
+      burger.addEventListener('click', function() {
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+      });
+    })();
+
+    AOS.init();
+    /*
+        $('.hover').mouseover(function() {
+      $('.text').css("visibility","visible");
+    });
+
+    $('.hover').mouseout(function() {
+      $('.text').css("visibility","hidden");
+    });
+    */
+
+    /*
+    $(".portimg").hover(function(){
+
+    		var oldimg = $("assets/i2.png").attr("src");
+    		var newimg = $("assets/s2.png").attr("src");
+
+    		$(this).attr("src", newimg);
+    		}, function(){
+    		$(this).attr("src", ouimg);
+    });
+    */
+
+    function displaytext(value) {
+      text = value;
+      document.write(text);
+    }
+  </script>
+
+  <div style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="nav-stripe"></div>
+
+
+  <footer class="footer bkg-black">
+    <div class="container">
+      <div class="columns">
+        <div class="column " style="visibility: visible; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.3s;">
+          <h1 style="visibility: visible; color:white; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.3s;" class = "subtitle is-6">
+               <b>Wanna work on something?</b><br><br>
+              <ul>
+             <li>
+         <a href="mailto:guruduttperichetla@gmail.com" class = "textlink" style = "color: var(--white);">Send me an Email ⟶</a>
+       </li>
+             <li><a href="https://www.linkedin.com/in/guruduttperi/" class = "textlink" style="color: var(--white);">LinkedIn ⟶</a> &nbsp; <br><a href="https://open.spotify.com/artist/3s5cmywpL5c4WNgPU4KutH" class = "textlink" style="color: var(--white);">Spotify ⟶</a> &nbsp; </li>
+             <li><a href="https://twitter.com/guruduttperi" class = "textlink"
+                 style="color: var(--white);">Twitter ⟶ </a><br><a href="https://www.instagram.com/gperichetla/" class = "textlink" style="color: var(--white);">Instagram ⟶</a></li>
+             <br>
+           </ul>
+            </h1>
+
+
+        </div>
+
+        <div class="column " style="visibility: visible; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.3s; color:black;">
+                <h1 style="visibility: visible; color:white; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.3s;" class = "subtitle is-6">
+          <p style="color: white;"><b style="color: var(--white);">Gurudutt Perichetla</b><br><br></p>
+          <ul>
+            <li>Designer.<br> Developer.</li>
+            <li>Engineer.<br> Musician.</li>
+          </ul>
+        </h1>
+        </div>
+
+
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

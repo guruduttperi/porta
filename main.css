@@ -434,6 +434,7 @@ a {
   --frost: #E0E7EE;
   --showkali: rgb(252,71,62);
   --dviz: rgb(47,113,76);
+  --nasa-black: #202020;
 
 }
 
@@ -866,5 +867,5 @@ align-self: center;
 
 
 #rescue_live{
-  
+
 }
