@@ -309,13 +309,13 @@ a {
     .project-container {
       margin-bottom: 60px; } }
   .project-container .project-preview {
-    flex-basis: 50%;
+    flex-basis: 45%;
     flex-shrink: 0;
     overflow: hidden;
     position: relative; }
     @media screen and (max-width: 900px) {
       .project-container .project-preview {
-        padding-top: 58.62069%;
+        padding-top: 80%;
         height: 0; } }
     .project-container .project-preview img {
       position: absolute;
