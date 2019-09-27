@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Desktop Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#418CFF" opacity="0.431198847" cx="76" cy="61" r="10"></circle>
+        <circle id="Oval" fill="#418CFF" opacity="0.431198847" cx="86" cy="552" r="10"></circle>
+        <circle id="Oval" fill="#418CFF" opacity="0.431198847" cx="131" cy="833" r="10"></circle>
+        <circle id="Oval" fill="#418CFF" opacity="0.431198847" cx="905" cy="207" r="10"></circle>
+        <circle id="Oval" fill="#418CFF" opacity="0.431198847" cx="66" cy="992" r="10"></circle>
+        <circle id="Oval" fill="#418CFF" opacity="0.431198847" cx="923" cy="945" r="10"></circle>
+        <polygon id="Triangle" fill="#3DBB61" opacity="0.631277902" transform="translate(42.000000, 170.000000) rotate(-30.000000) translate(-42.000000, -170.000000) " points="42 160 52 180 32 180"></polygon>
+        <polygon id="Triangle" fill="#3DBB61" opacity="0.631277902" transform="translate(46.000000, 703.000000) rotate(-30.000000) translate(-46.000000, -703.000000) " points="46 693 56 713 36 713"></polygon>
+        <polygon id="Triangle" fill="#3DBB61" opacity="0.631277902" transform="translate(943.000000, 57.000000) rotate(150.000000) translate(-943.000000, -57.000000) " points="943 47 953 67 933 67"></polygon>
+        <polygon id="Triangle" fill="#3DBB61" opacity="0.631277902" transform="translate(836.000000, 758.000000) rotate(150.000000) translate(-836.000000, -758.000000) " points="836 748 846 768 826 768"></polygon>
+        <polygon id="Triangle" fill="#3DBB61" opacity="0.631277902" transform="translate(964.000000, 336.000000) rotate(150.000000) translate(-964.000000, -336.000000) " points="964 326 974 346 954 346"></polygon>
+        <polygon id="Triangle" fill="#3DBB61" opacity="0.631277902" transform="translate(46.000000, 336.000000) rotate(150.000000) translate(-46.000000, -336.000000) " points="46 326 56 346 36 346"></polygon>
+        <polygon id="Triangle" fill="#3DBB61" opacity="0.631277902" transform="translate(947.000000, 516.000000) rotate(-30.000000) translate(-947.000000, -516.000000) " points="947 506 957 526 937 526"></polygon>
+        <polygon id="Triangle" fill="#3DBB61" opacity="0.631277902" transform="translate(234.000000, 959.000000) rotate(-30.000000) translate(-234.000000, -959.000000) " points="234 949 244 969 224 969"></polygon>
+    </g>
+</svg>
