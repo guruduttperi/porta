@@ -28,7 +28,6 @@
     html {
       font-family: 'Inter', sans-serif;
     }
-
     @supports (font-variation-settings: normal) {
       html {
         font-family: 'Inter var', sans-serif;
@@ -45,7 +44,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'UA-146854000-1');
   </script>
 
@@ -70,7 +68,7 @@
         <div class="navbar-end">
           <a href="index.html" class="navbar-item is-active"><b>Work</b></a>
           <a href="music.html" class="navbar-item "><b>Music</b></a>
-            <a href="photos.html" class="navbar-item"><b>Photos</b></a>
+        
           <a href="about.html" class="navbar-item"><b>About</b></a>
         </div>
       </div>
@@ -261,30 +259,24 @@ As is with the case of cognitive overload, I decided to simplify the interface b
         nav.classList.toggle('is-active');
       });
     })();
-
     AOS.init();
     /*
         $('.hover').mouseover(function() {
       $('.text').css("visibility","visible");
     });
-
     $('.hover').mouseout(function() {
       $('.text').css("visibility","hidden");
     });
     */
-
     /*
     $(".portimg").hover(function(){
-
     		var oldimg = $("assets/i2.png").attr("src");
     		var newimg = $("assets/s2.png").attr("src");
-
     		$(this).attr("src", newimg);
     		}, function(){
     		$(this).attr("src", ouimg);
     });
     */
-
     function displaytext(value) {
       text = value;
       document.write(text);
