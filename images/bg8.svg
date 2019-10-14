@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="1024px" viewBox="0 0 1440 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Desktop Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#418CFF" cx="437" cy="106" r="10"></circle>
+        <circle id="Oval" fill="#418CFF" cx="840" cy="911" r="10"></circle>
+        <circle id="Oval" fill="#418CFF" cx="202" cy="911" r="10"></circle>
+        <circle id="Oval" fill="#418CFF" cx="1333" cy="945" r="10"></circle>
+        <polygon id="Triangle" fill="#3DBB61" transform="translate(32.000000, 372.000000) rotate(30.000000) translate(-32.000000, -372.000000) " points="32 362 42 382 22 382"></polygon>
+        <polygon id="Triangle" fill="#3DBB61" transform="translate(1353.000000, 57.000000) rotate(150.000000) translate(-1353.000000, -57.000000) " points="1353 47 1363 67 1343 67"></polygon>
+        <polygon id="Triangle" fill="#3DBB61" transform="translate(606.000000, 856.000000) rotate(150.000000) translate(-606.000000, -856.000000) " points="606 846 616 866 596 866"></polygon>
+        <circle id="Oval" fill="#418CFF" cx="1377" cy="290" r="10"></circle>
+        <polygon id="Triangle" fill="#3DBB61" transform="translate(972.000000, 92.000000) rotate(-30.000000) translate(-972.000000, -92.000000) " points="972 82 982 102 962 102"></polygon>
+    </g>
+</svg>
