@@ -911,8 +911,11 @@ align-self: center;
 }
 
 
+
+
 @media (max-width:629px) {
   img#memepic {
     display: none;
   }
+
 }
